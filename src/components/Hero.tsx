@@ -8,18 +8,18 @@ import bannerImg from "../assets/live-striming.png"
 const Hero = ({
     listUser = [
       {
-        name: "Users",
-        number: "390",
+        name: "End Users Annually",
+        number: "500+ Million",
         icon: "/images/icons/heroicons_sm-user.svg",
       },
       {
-        name: "Locations",
-        number: "20",
+        name: "Countries and Regions",
+        number: "212+",
         icon: "/images/icons/gridicons_location.svg",
       },
       {
-        name: "Server",
-        number: "50",
+        name: "Service Uptime",
+        number: "99.99%",
         icon: "/images/icons/bx_bxs-server.svg",
       },
     ],
@@ -66,7 +66,7 @@ const Hero = ({
                 </div>
                 <div className="flex flex-col">
                   <p className="text-xl text-black-600 font-bold">
-                    {listUsers.number}+
+                    {listUsers.number}
                   </p>
                   <p className="text-lg text-black-500">{listUsers.name}</p>
                 </div>
